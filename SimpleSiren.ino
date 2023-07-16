@@ -1,6 +1,16 @@
 
 // Simple Siren by V205.
 // Thank you to Arduino. 
+/*
+The circuit is a piezo connectedto digital pin 7 and ground.
+________________
+|Piezo| Arduino|
+| +   | D7     |
+| -   | GND    |
+
+*/
+
+
 // constants won't change. Used here to set a pin number:
 const int piezoPin = 7;  // the number of the piezo pin
 
